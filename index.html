@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Center</title>
+</head>
+<body>
+    <div class="wrapper">
+
+        <div class="notification">
+            <p>Fill all fields!</p>
+        </div>
+
+        <nav>
+            <p>Student</p>
+            <button id="open">New Student</button>
+        </nav>
+        <div class="students">
+            <form action="" onsubmit="addstudent(event)">
+            <p>Register</p>
+            <input type="text" placeholder="Name" id="name">
+            <input type="text" placeholder="Surname" id="surname">
+            <input type="text" placeholder="Phone number" id="number">
+            <div class="btns">
+                <button class="add">Add</button>
+            </div>
+        </form>
+            
+        </div>
+        <table border="1px">
+            <thead>
+                <tr><td>Id</td>
+                    <td>Name</td>
+                    <td>Surname</td>
+                    <td>Phone Number</td>
+                    <td >Actions</td>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+        <button class="clear" >Clear</button>
+    </div>
+</body>
+<script src="./js.js"></script>
+</html>
